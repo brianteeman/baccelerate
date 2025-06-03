@@ -1,0 +1,37 @@
+{
+	"name": "nikosdion/baccelerate",
+	"description": "Accelerated desktop application development with Boson",
+	"type": "library",
+	"minimum-stability": "dev",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Nicholas K. Dionysopoulos",
+			"email": "nicholas@dionysopoulos.me"
+		}
+	],
+	"require": {
+		"php": "^8.4",
+		"boson-php/http-static-provider": "^1.0@dev",
+		"boson-php/runtime": "^1.0",
+		"boson-php/psr-http-bridge": "^1.0@dev",
+		"laminas/laminas-diactoros": "3.7.x-dev",
+		"laminas/laminas-httphandlerrunner": "2.13.x-dev",
+		"pimple/pimple": "^3.5.0"
+	},
+	"recommend": {
+		"league/route": "For PSR-7 routing"
+	},
+	"config": {
+		"platform": {
+			"php": "8.4.999"
+		},
+		"optimize-autoloader": false,
+		"sort-packages": true
+	},
+	"autoload": {
+		"psr-4": {
+			"Dionysopoulos\\BAccelarate\\": "src"
+		}
+	}
+}

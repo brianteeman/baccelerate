@@ -1,0 +1,1180 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "13078675b9c7216d24f991a609bf3ddc",
+    "packages": [
+        {
+            "name": "boson-php/globals-provider",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/globals-provider.git",
+                "reference": "08ed4946b8df1565bb13909a7a1dc2ac3db658dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/globals-provider/zipball/08ed4946b8df1565bb13909a7a1dc2ac3db658dc",
+                "reference": "08ed4946b8df1565bb13909a7a1dc2ac3db658dc",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/http-contracts": "^1.0",
+                "php": "^8.4",
+                "psr/clock": "^1.0"
+            },
+            "require-dev": {
+                "boson-php/http": "^1.0",
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev",
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Component\\GlobalsProvider\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides PHP superglobal converters and extractors",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/globals-provider"
+            },
+            "time": "2025-06-02T11:17:27+00:00"
+        },
+        {
+            "name": "boson-php/http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/http.git",
+                "reference": "e2c25f974a3fb9abd7f58063dc578a0bb9214366"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/http/zipball/e2c25f974a3fb9abd7f58063dc578a0bb9214366",
+                "reference": "e2c25f974a3fb9abd7f58063dc578a0bb9214366",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/http-contracts": "^1.0",
+                "php": "^8.4"
+            },
+            "provide": {
+                "boson-php/http-contracts-implementation": "^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev",
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Component\\Http\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides basic HTTP structures",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/http"
+            },
+            "time": "2025-06-02T11:17:27+00:00"
+        },
+        {
+            "name": "boson-php/http-body-decoder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/http-body-decoder.git",
+                "reference": "2492df194cf85e18edeb0d69a5faf97100f19ca0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/http-body-decoder/zipball/2492df194cf85e18edeb0d69a5faf97100f19ca0",
+                "reference": "2492df194cf85e18edeb0d69a5faf97100f19ca0",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/http": "^1.0",
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev",
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Component\\Http\\Body\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides HTTP request body decoders",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/http-body-decoder"
+            },
+            "time": "2025-06-02T11:17:44+00:00"
+        },
+        {
+            "name": "boson-php/http-bridge",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/http-bridge.git",
+                "reference": "82a6148ca2bf821fa4042bc43918480a960388c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/http-bridge/zipball/82a6148ca2bf821fa4042bc43918480a960388c3",
+                "reference": "82a6148ca2bf821fa4042bc43918480a960388c3",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/globals-provider": "^1.0",
+                "boson-php/http-body-decoder": "^1.0",
+                "boson-php/http-contracts": "^1.0",
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev",
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Bridge\\Http\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides basic interfaces and classes for http bridges",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/http-bridge"
+            },
+            "time": "2025-06-02T11:21:10+00:00"
+        },
+        {
+            "name": "boson-php/http-contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/http-contracts.git",
+                "reference": "992a86419b9cdb8b67d8312978d0bf0f6ceacc63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/http-contracts/zipball/992a86419b9cdb8b67d8312978d0bf0f6ceacc63",
+                "reference": "992a86419b9cdb8b67d8312978d0bf0f6ceacc63",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev",
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Contracts\\Http\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides basic HTTP component structures",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/http-contracts"
+            },
+            "time": "2025-05-25T13:15:36+00:00"
+        },
+        {
+            "name": "boson-php/http-static-provider",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/http-static-provider.git",
+                "reference": "720ca6b4279800400c00d0fe7e4a4aa51fbd32ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/http-static-provider/zipball/720ca6b4279800400c00d0fe7e4a4aa51fbd32ca",
+                "reference": "720ca6b4279800400c00d0fe7e4a4aa51fbd32ca",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/http": "^1.0",
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev",
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Component\\Http\\Static\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides static files finder and resolver",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/http-static-provider"
+            },
+            "time": "2025-06-02T11:20:52+00:00"
+        },
+        {
+            "name": "boson-php/psr-http-bridge",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/psr-http-bridge.git",
+                "reference": "939ab6e8256e78cc0e7130146c3668f0c96623a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/psr-http-bridge/zipball/939ab6e8256e78cc0e7130146c3668f0c96623a0",
+                "reference": "939ab6e8256e78cc0e7130146c3668f0c96623a0",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/http": "^1.0",
+                "boson-php/http-bridge": "^1.0",
+                "php": "^8.4",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0|^2.0"
+            },
+            "require-dev": {
+                "nyholm/psr7": "^1.8",
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev",
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Bridge\\Psr\\Http\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides PSR-7 HTTP bridge",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/psr-http-bridge"
+            },
+            "time": "2025-06-02T11:17:25+00:00"
+        },
+        {
+            "name": "boson-php/runtime",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/runtime.git",
+                "reference": "781dc2180aeb6d413266720186dce3c57acfb4f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/runtime/zipball/781dc2180aeb6d413266720186dce3c57acfb4f7",
+                "reference": "781dc2180aeb6d413266720186dce3c57acfb4f7",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/globals-provider": "^1.0",
+                "boson-php/http": "^1.0",
+                "boson-php/http-contracts": "^1.0",
+                "boson-php/weak-types": "^1.0",
+                "ext-ffi": "*",
+                "ffi/env": "^1.0",
+                "php": "^8.4",
+                "psr/event-dispatcher": "^1.0",
+                "react/promise": "^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev",
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Boson WebView runtime library",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/runtime"
+            },
+            "time": "2025-05-24T22:03:15+00:00"
+        },
+        {
+            "name": "boson-php/weak-types",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/weak-types.git",
+                "reference": "059e9bbed5ffe2603ae12ff46fd40625f8d7d55a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/weak-types/zipball/059e9bbed5ffe2603ae12ff46fd40625f8d7d55a",
+                "reference": "059e9bbed5ffe2603ae12ff46fd40625f8d7d55a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev",
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Component\\WeakType\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides weak structures and types",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/weak-types"
+            },
+            "time": "2025-05-25T13:15:30+00:00"
+        },
+        {
+            "name": "ffi/env",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-ffi/env.git",
+                "reference": "8d3da08aac80bcf41591f60999f10eb65d9a9168"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-ffi/env/zipball/8d3da08aac80bcf41591f60999f10eb65d9a9168",
+                "reference": "8d3da08aac80bcf41591f60999f10eb65d9a9168",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.53",
+                "phpstan/phpstan": "^2.0",
+                "phpstan/phpstan-deprecation-rules": "^2.0",
+                "phpstan/phpstan-strict-rules": "^2.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev",
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FFI\\Env\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nesmeyanov Kirill",
+                    "email": "nesk@xakep.ru",
+                    "homepage": "https://nesk.me",
+                    "role": "maintainer"
+                }
+            ],
+            "description": "PHP FFI Environment",
+            "keywords": [
+                "env",
+                "environment",
+                "ffi"
+            ],
+            "support": {
+                "docs": "https://github.com/php-ffi/env/blob/master/README.md",
+                "issues": "https://github.com/php-ffi/env/issues",
+                "source": "https://github.com/php-ffi/env"
+            },
+            "time": "2025-05-08T15:10:37+00:00"
+        },
+        {
+            "name": "laminas/laminas-diactoros",
+            "version": "3.7.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laminas/laminas-diactoros.git",
+                "reference": "2be00db99ed3b8947fc8c36efbf21202fa28ff00"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/2be00db99ed3b8947fc8c36efbf21202fa28ff00",
+                "reference": "2be00db99ed3b8947fc8c36efbf21202fa28ff00",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+                "psr/http-factory": "^1.1",
+                "psr/http-message": "^1.1 || ^2.0"
+            },
+            "conflict": {
+                "amphp/amp": "<2.6.4"
+            },
+            "provide": {
+                "psr/http-factory-implementation": "^1.0",
+                "psr/http-message-implementation": "^1.1 || ^2.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-gd": "*",
+                "ext-libxml": "*",
+                "http-interop/http-factory-tests": "^2.2.0",
+                "laminas/laminas-coding-standard": "~3.1.0",
+                "php-http/psr7-integration-tests": "^1.4.0",
+                "phpunit/phpunit": "^10.5.36",
+                "psalm/plugin-phpunit": "^0.19.0",
+                "vimeo/psalm": "^5.26.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laminas": {
+                    "module": "Laminas\\Diactoros",
+                    "config-provider": "Laminas\\Diactoros\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions/create_uploaded_file.php",
+                    "src/functions/marshal_headers_from_sapi.php",
+                    "src/functions/marshal_method_from_sapi.php",
+                    "src/functions/marshal_protocol_version_from_sapi.php",
+                    "src/functions/normalize_server.php",
+                    "src/functions/normalize_uploaded_files.php",
+                    "src/functions/parse_cookie_header.php"
+                ],
+                "psr-4": {
+                    "Laminas\\Diactoros\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "PSR HTTP Message implementations",
+            "homepage": "https://laminas.dev",
+            "keywords": [
+                "http",
+                "laminas",
+                "psr",
+                "psr-17",
+                "psr-7"
+            ],
+            "support": {
+                "chat": "https://laminas.dev/chat",
+                "docs": "https://docs.laminas.dev/laminas-diactoros/",
+                "forum": "https://discourse.laminas.dev",
+                "issues": "https://github.com/laminas/laminas-diactoros/issues",
+                "rss": "https://github.com/laminas/laminas-diactoros/releases.atom",
+                "source": "https://github.com/laminas/laminas-diactoros"
+            },
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2025-05-13T10:51:33+00:00"
+        },
+        {
+            "name": "laminas/laminas-httphandlerrunner",
+            "version": "2.13.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
+                "reference": "5cbf114cb36708fec9f77dff5b050417cd1076a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/5cbf114cb36708fec9f77dff5b050417cd1076a8",
+                "reference": "5cbf114cb36708fec9f77dff5b050417cd1076a8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+                "psr/http-message": "^1.0 || ^2.0",
+                "psr/http-message-implementation": "^1.0 || ^2.0",
+                "psr/http-server-handler": "^1.0"
+            },
+            "require-dev": {
+                "laminas/laminas-coding-standard": "~3.1.0",
+                "laminas/laminas-diactoros": "^3.6.0",
+                "phpunit/phpunit": "^10.5.46",
+                "psalm/plugin-phpunit": "^0.19.5",
+                "vimeo/psalm": "^6.10.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laminas": {
+                    "config-provider": "Laminas\\HttpHandlerRunner\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laminas\\HttpHandlerRunner\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Execute PSR-15 RequestHandlerInterface instances and emit responses they generate.",
+            "homepage": "https://laminas.dev",
+            "keywords": [
+                "components",
+                "laminas",
+                "mezzio",
+                "psr-15",
+                "psr-7"
+            ],
+            "support": {
+                "chat": "https://laminas.dev/chat",
+                "docs": "https://docs.laminas.dev/laminas-httphandlerrunner/",
+                "forum": "https://discourse.laminas.dev",
+                "issues": "https://github.com/laminas/laminas-httphandlerrunner/issues",
+                "rss": "https://github.com/laminas/laminas-httphandlerrunner/releases.atom",
+                "source": "https://github.com/laminas/laminas-httphandlerrunner"
+            },
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2025-05-26T02:48:16+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/container": "^1.1 || ^2.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^5.4@dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "https://pimple.symfony.com",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "support": {
+                "source": "https://github.com/silexphp/Pimple/tree/v3.5.0"
+            },
+            "time": "2021-10-28T11:13:42+00:00"
+        },
+        {
+            "name": "psr/clock",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/clock.git",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/clock/zipball/e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Clock\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for reading the clock.",
+            "homepage": "https://github.com/php-fig/clock",
+            "keywords": [
+                "clock",
+                "now",
+                "psr",
+                "psr-20",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/clock/issues",
+                "source": "https://github.com/php-fig/clock/tree/1.0.0"
+            },
+            "time": "2022-11-25T14:36:26+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "707984727bd5b2b670e59559d3ed2500240cf875"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/707984727bd5b2b670e59559d3ed2500240cf875",
+                "reference": "707984727bd5b2b670e59559d3ed2500240cf875",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container"
+            },
+            "time": "2023-09-22T11:11:30+00:00"
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/event-dispatcher.git",
+                "reference": "bbd9eacc080d33861e5b5c75b3b8c4d7e6d01874"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/bbd9eacc080d33861e5b5c75b3b8c4d7e6d01874",
+                "reference": "bbd9eacc080d33861e5b5c75b3b8c4d7e6d01874",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "suggest": {
+                "fig/event-dispatcher-util": "Provides some useful PSR-14 utilities"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\EventDispatcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Standard interfaces for event handling.",
+            "keywords": [
+                "events",
+                "psr",
+                "psr-14"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/event-dispatcher"
+            },
+            "time": "2024-03-17T21:29:03+00:00"
+        },
+        {
+            "name": "psr/http-factory",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-factory.git",
+                "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+                "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "psr/http-message": "^1.0 || ^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "PSR-17: Common interfaces for PSR-7 HTTP message factories",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "psr",
+                "psr-17",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-factory"
+            },
+            "time": "2024-04-15T12:06:14+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "reference": "402d35bcb92c70c026d1a6a9883f06b2ead23d71",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/2.0"
+            },
+            "time": "2023-04-04T09:54:51+00:00"
+        },
+        {
+            "name": "psr/http-server-handler",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-handler.git",
+                "reference": "13403d43196ab3382d0a4ca28be32984282641f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/13403d43196ab3382d0a4ca28be32984282641f9",
+                "reference": "13403d43196ab3382d0a4ca28be32984282641f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0 || ^2.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side request handler",
+            "keywords": [
+                "handler",
+                "http",
+                "http-interop",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response",
+                "server"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-server-handler"
+            },
+            "time": "2023-11-16T18:17:39+00:00"
+        },
+        {
+            "name": "react/promise",
+            "version": "3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/promise.git",
+                "reference": "5f80055cc21ba7bcd3989e4902061fc12e2bcc1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/5f80055cc21ba7bcd3989e4902061fc12e2bcc1d",
+                "reference": "5f80055cc21ba7bcd3989e4902061fc12e2bcc1d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "1.10.39 || 1.4.10",
+                "phpunit/phpunit": "^9.6 || ^7.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "React\\Promise\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@gmail.com",
+                    "homepage": "https://sorgalla.com/"
+                },
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@clue.engineering",
+                    "homepage": "https://clue.engineering/"
+                },
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "reactphp@ceesjankiewiet.nl",
+                    "homepage": "https://wyrihaximus.net/"
+                },
+                {
+                    "name": "Chris Boden",
+                    "email": "cboden@gmail.com",
+                    "homepage": "https://cboden.dev/"
+                }
+            ],
+            "description": "A lightweight implementation of CommonJS Promises/A for PHP",
+            "keywords": [
+                "promise",
+                "promises"
+            ],
+            "support": {
+                "issues": "https://github.com/reactphp/promise/issues",
+                "source": "https://github.com/reactphp/promise/tree/3.x"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/reactphp",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2024-11-19T18:32:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "boson-php/http-static-provider": 20,
+        "boson-php/psr-http-bridge": 20,
+        "laminas/laminas-diactoros": 20,
+        "laminas/laminas-httphandlerrunner": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.4"
+    },
+    "platform-dev": {},
+    "platform-overrides": {
+        "php": "8.4.999"
+    },
+    "plugin-api-version": "2.6.0"
+}
