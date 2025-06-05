@@ -33,7 +33,7 @@ namespace Dionysopoulos\BAccelarate\ExceptionHandling;
 interface ExceptionHandlerInterface
 {
 	/**
-	 * Handles the invocation of the exception hander object.
+	 * Handles the invocation of the exception handler object.
 	 *
 	 * @param   \Throwable  $exception  The exception instance to process.
 	 *
