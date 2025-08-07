@@ -12,16 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/cpu-info.git",
-                "reference": "bf62a3f383f7b50e84499cce25208b2a16f71e61"
+                "reference": "4a80d45b9ba1c2d0bf63039625d32bc28bd1fbec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/cpu-info/zipball/bf62a3f383f7b50e84499cce25208b2a16f71e61",
-                "reference": "bf62a3f383f7b50e84499cce25208b2a16f71e61",
+                "url": "https://api.github.com/repos/boson-php/cpu-info/zipball/4a80d45b9ba1c2d0bf63039625d32bc28bd1fbec",
+                "reference": "4a80d45b9ba1c2d0bf63039625d32bc28bd1fbec",
                 "shasum": ""
             },
             "require": {
-                "boson-php/pasm": "^0.15",
+                "boson-php/pasm": "^0.16",
                 "ffi/env": "^1.0",
                 "php": "^8.4"
             },
@@ -32,8 +32,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -57,7 +57,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/cpu-info"
             },
-            "time": "2025-06-26T19:58:56+00:00"
+            "time": "2025-08-06T20:19:26+00:00"
         },
         {
             "name": "boson-php/event-listener-contracts",
@@ -65,12 +65,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/event-listener-contracts.git",
-                "reference": "fc28fc8683313051b54ef84b3d56de562f394dfb"
+                "reference": "3d04587ccad5ee787c65559c7869585da82a4075"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/event-listener-contracts/zipball/fc28fc8683313051b54ef84b3d56de562f394dfb",
-                "reference": "fc28fc8683313051b54ef84b3d56de562f394dfb",
+                "url": "https://api.github.com/repos/boson-php/event-listener-contracts/zipball/3d04587ccad5ee787c65559c7869585da82a4075",
+                "reference": "3d04587ccad5ee787c65559c7869585da82a4075",
                 "shasum": ""
             },
             "require": {
@@ -84,8 +84,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -109,7 +109,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/event-listener-contracts"
             },
-            "time": "2025-06-20T18:28:19+00:00"
+            "time": "2025-08-06T20:19:43+00:00"
         },
         {
             "name": "boson-php/globals-provider",
@@ -117,29 +117,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/globals-provider.git",
-                "reference": "24cd4084c9f8b7c91de5c9208c2067311a3b879f"
+                "reference": "d49cbb3a8f58bfbcc5999e97de1051950a93af36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/globals-provider/zipball/24cd4084c9f8b7c91de5c9208c2067311a3b879f",
-                "reference": "24cd4084c9f8b7c91de5c9208c2067311a3b879f",
+                "url": "https://api.github.com/repos/boson-php/globals-provider/zipball/d49cbb3a8f58bfbcc5999e97de1051950a93af36",
+                "reference": "d49cbb3a8f58bfbcc5999e97de1051950a93af36",
                 "shasum": ""
             },
             "require": {
-                "boson-php/http-contracts": "^0.15",
+                "boson-php/http-contracts": "^0.16",
                 "php": "^8.4",
                 "psr/clock": "^1.0"
             },
             "require-dev": {
-                "boson-php/http": "^0.15",
+                "boson-php/http": "^0.16",
                 "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -163,7 +163,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/globals-provider"
             },
-            "time": "2025-06-20T16:10:44+00:00"
+            "time": "2025-08-06T20:17:08+00:00"
         },
         {
             "name": "boson-php/http",
@@ -171,20 +171,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/http.git",
-                "reference": "524d63fa8fe963202f7981b4aaeea343bda07073"
+                "reference": "d34c131b4044066110f0c5c102d0a774d858ef45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/http/zipball/524d63fa8fe963202f7981b4aaeea343bda07073",
-                "reference": "524d63fa8fe963202f7981b4aaeea343bda07073",
+                "url": "https://api.github.com/repos/boson-php/http/zipball/d34c131b4044066110f0c5c102d0a774d858ef45",
+                "reference": "d34c131b4044066110f0c5c102d0a774d858ef45",
                 "shasum": ""
             },
             "require": {
-                "boson-php/http-contracts": "^0.15",
+                "boson-php/http-contracts": "^0.16",
+                "boson-php/uri-factory": "^0.16",
                 "php": "^8.4"
             },
             "provide": {
-                "boson-php/http-contracts-implementation": "^4.0"
+                "boson-php/http-contracts-implementation": "^0.16"
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
@@ -193,8 +194,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -218,7 +219,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/http"
             },
-            "time": "2025-06-20T16:10:42+00:00"
+            "time": "2025-08-06T20:20:13+00:00"
         },
         {
             "name": "boson-php/http-body-decoder",
@@ -226,16 +227,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/http-body-decoder.git",
-                "reference": "58462657b9f2dce24f2c801eaaa0d738f11e161a"
+                "reference": "85753e115dd03703853951a8ab11a30d738d84e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/http-body-decoder/zipball/58462657b9f2dce24f2c801eaaa0d738f11e161a",
-                "reference": "58462657b9f2dce24f2c801eaaa0d738f11e161a",
+                "url": "https://api.github.com/repos/boson-php/http-body-decoder/zipball/85753e115dd03703853951a8ab11a30d738d84e3",
+                "reference": "85753e115dd03703853951a8ab11a30d738d84e3",
                 "shasum": ""
             },
             "require": {
-                "boson-php/http": "^0.15",
+                "boson-php/http": "^0.16",
                 "php": "^8.4"
             },
             "require-dev": {
@@ -245,8 +246,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -270,7 +271,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/http-body-decoder"
             },
-            "time": "2025-06-20T23:55:38+00:00"
+            "time": "2025-08-06T20:17:26+00:00"
         },
         {
             "name": "boson-php/http-bridge",
@@ -278,30 +279,30 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/http-bridge.git",
-                "reference": "7810acb7d3404e76219192d5490ba8be348f8cde"
+                "reference": "6c0920eb7e800b2c74e7ba0de606f2a00b4cb957"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/http-bridge/zipball/7810acb7d3404e76219192d5490ba8be348f8cde",
-                "reference": "7810acb7d3404e76219192d5490ba8be348f8cde",
+                "url": "https://api.github.com/repos/boson-php/http-bridge/zipball/6c0920eb7e800b2c74e7ba0de606f2a00b4cb957",
+                "reference": "6c0920eb7e800b2c74e7ba0de606f2a00b4cb957",
                 "shasum": ""
             },
             "require": {
-                "boson-php/globals-provider": "^0.15",
-                "boson-php/http-body-decoder": "^0.15",
-                "boson-php/http-contracts": "^0.15",
+                "boson-php/globals-provider": "^0.16",
+                "boson-php/http-body-decoder": "^0.16",
+                "boson-php/http-contracts": "^0.16",
                 "php": "^8.4"
             },
             "require-dev": {
-                "boson-php/http": "^0.15",
+                "boson-php/http": "^0.16",
                 "phpunit/phpunit": "^12.0"
             },
             "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -325,7 +326,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/http-bridge"
             },
-            "time": "2025-06-20T23:55:43+00:00"
+            "time": "2025-08-06T20:17:11+00:00"
         },
         {
             "name": "boson-php/http-contracts",
@@ -333,15 +334,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/http-contracts.git",
-                "reference": "4fbb78e00b3e6b61b7812b6672cda8b216e6d8ba"
+                "reference": "54d974fde9ca22213ab84f25f3c980176980ce9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/http-contracts/zipball/4fbb78e00b3e6b61b7812b6672cda8b216e6d8ba",
-                "reference": "4fbb78e00b3e6b61b7812b6672cda8b216e6d8ba",
+                "url": "https://api.github.com/repos/boson-php/http-contracts/zipball/54d974fde9ca22213ab84f25f3c980176980ce9d",
+                "reference": "54d974fde9ca22213ab84f25f3c980176980ce9d",
                 "shasum": ""
             },
             "require": {
+                "boson-php/value-object-contracts": "^0.16",
                 "php": "^8.4"
             },
             "require-dev": {
@@ -351,8 +353,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -376,7 +378,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/http-contracts"
             },
-            "time": "2025-06-20T23:55:32+00:00"
+            "time": "2025-08-06T20:20:11+00:00"
         },
         {
             "name": "boson-php/http-static-provider",
@@ -384,16 +386,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/http-static-provider.git",
-                "reference": "93ffcf94a8d3e957b14c09cd5b88a412bfb4d80f"
+                "reference": "cb34906f0038b9f6310f9b0c5b150d1faf8a2a6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/http-static-provider/zipball/93ffcf94a8d3e957b14c09cd5b88a412bfb4d80f",
-                "reference": "93ffcf94a8d3e957b14c09cd5b88a412bfb4d80f",
+                "url": "https://api.github.com/repos/boson-php/http-static-provider/zipball/cb34906f0038b9f6310f9b0c5b150d1faf8a2a6d",
+                "reference": "cb34906f0038b9f6310f9b0c5b150d1faf8a2a6d",
                 "shasum": ""
             },
             "require": {
-                "boson-php/http": "^0.15",
+                "boson-php/http": "^0.16",
                 "php": "^8.4"
             },
             "require-dev": {
@@ -403,8 +405,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -428,7 +430,59 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/http-static-provider"
             },
-            "time": "2025-06-20T16:10:40+00:00"
+            "time": "2025-08-06T20:23:48+00:00"
+        },
+        {
+            "name": "boson-php/id-contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/id-contracts.git",
+                "reference": "4f1343d28f7f2fd1f0daff37e21fef847c524c7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/id-contracts/zipball/4f1343d28f7f2fd1f0daff37e21fef847c524c7e",
+                "reference": "4f1343d28f7f2fd1f0daff37e21fef847c524c7e",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/value-object-contracts": "^0.16",
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Contracts\\Id\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides basic ID interfaces",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/id-contracts"
+            },
+            "time": "2025-08-06T20:25:55+00:00"
         },
         {
             "name": "boson-php/os-info",
@@ -436,12 +490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/os-info.git",
-                "reference": "97032c026477bc54b026e2ab497a8f139c9b6e0f"
+                "reference": "f27278a88dd28cd82f16f6eefdb000bf99de353b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/os-info/zipball/97032c026477bc54b026e2ab497a8f139c9b6e0f",
-                "reference": "97032c026477bc54b026e2ab497a8f139c9b6e0f",
+                "url": "https://api.github.com/repos/boson-php/os-info/zipball/f27278a88dd28cd82f16f6eefdb000bf99de353b",
+                "reference": "f27278a88dd28cd82f16f6eefdb000bf99de353b",
                 "shasum": ""
             },
             "require": {
@@ -457,8 +511,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -482,7 +536,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/os-info"
             },
-            "time": "2025-06-29T09:10:25+00:00"
+            "time": "2025-08-06T20:22:07+00:00"
         },
         {
             "name": "boson-php/pasm",
@@ -490,16 +544,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/pasm.git",
-                "reference": "05cc2e8431665c9cb2e24567081e414e8c64ad42"
+                "reference": "a125aa8ef274b5178cb0f7651d0bb1d2aae2ee52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/pasm/zipball/05cc2e8431665c9cb2e24567081e414e8c64ad42",
-                "reference": "05cc2e8431665c9cb2e24567081e414e8c64ad42",
+                "url": "https://api.github.com/repos/boson-php/pasm/zipball/a125aa8ef274b5178cb0f7651d0bb1d2aae2ee52",
+                "reference": "a125aa8ef274b5178cb0f7651d0bb1d2aae2ee52",
                 "shasum": ""
             },
             "require": {
-                "boson-php/weak-types": "^0.15",
+                "boson-php/weak-types": "^0.16",
                 "ffi/env": "^1.0",
                 "php": "^8.4"
             },
@@ -510,8 +564,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -535,7 +589,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/pasm"
             },
-            "time": "2025-06-26T18:08:09+00:00"
+            "time": "2025-08-06T20:17:13+00:00"
         },
         {
             "name": "boson-php/psr-http-bridge",
@@ -543,17 +597,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/psr-http-bridge.git",
-                "reference": "9ee83822545c3a4dd0afa582e58e65eb648cfca3"
+                "reference": "4c52551d9e5dd265e2ffdf3527ffef09f16e236f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/psr-http-bridge/zipball/9ee83822545c3a4dd0afa582e58e65eb648cfca3",
-                "reference": "9ee83822545c3a4dd0afa582e58e65eb648cfca3",
+                "url": "https://api.github.com/repos/boson-php/psr-http-bridge/zipball/4c52551d9e5dd265e2ffdf3527ffef09f16e236f",
+                "reference": "4c52551d9e5dd265e2ffdf3527ffef09f16e236f",
                 "shasum": ""
             },
             "require": {
-                "boson-php/http": "^0.15",
-                "boson-php/http-bridge": "^0.15",
+                "boson-php/http": "^0.16",
+                "boson-php/http-bridge": "^0.16",
                 "php": "^8.4",
                 "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0|^2.0"
@@ -566,8 +620,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -591,7 +645,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/psr-http-bridge"
             },
-            "time": "2025-06-20T16:10:40+00:00"
+            "time": "2025-08-06T20:17:34+00:00"
         },
         {
             "name": "boson-php/runtime",
@@ -599,26 +653,33 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boson-php/runtime.git",
-                "reference": "7483a3be886c067ec023f9371c85c3b063efab7f"
+                "reference": "7fd75abe6057d2349be3374638a2f9d191b2630b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/runtime/zipball/7483a3be886c067ec023f9371c85c3b063efab7f",
-                "reference": "7483a3be886c067ec023f9371c85c3b063efab7f",
+                "url": "https://api.github.com/repos/boson-php/runtime/zipball/7fd75abe6057d2349be3374638a2f9d191b2630b",
+                "reference": "7fd75abe6057d2349be3374638a2f9d191b2630b",
                 "shasum": ""
             },
             "require": {
-                "boson-php/cpu-info": "^0.15",
-                "boson-php/event-listener-contracts": "^0.15",
-                "boson-php/http": "^0.15",
-                "boson-php/http-contracts": "^0.15",
-                "boson-php/os-info": "^0.15",
-                "boson-php/weak-types": "^0.15",
+                "boson-php/cpu-info": "^0.16",
+                "boson-php/event-listener-contracts": "^0.16",
+                "boson-php/http": "^0.16",
+                "boson-php/http-contracts": "^0.16",
+                "boson-php/id-contracts": "^0.16",
+                "boson-php/os-info": "^0.16",
+                "boson-php/uri": "^0.16",
+                "boson-php/uri-contracts": "^0.16",
+                "boson-php/uri-factory": "^0.16",
+                "boson-php/uri-factory-contracts": "^0.16",
+                "boson-php/value-object-contracts": "^0.16",
+                "boson-php/weak-types": "^0.16",
                 "ext-ffi": "*",
                 "ffi/env": "^1.0",
                 "php": "^8.4",
                 "psr/event-dispatcher": "^1.0",
-                "react/promise": "^3.0"
+                "react/promise": "^3.0",
+                "revolt/event-loop": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
@@ -627,8 +688,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -652,20 +713,235 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/runtime"
             },
-            "time": "2025-06-29T09:10:23+00:00"
+            "time": "2025-08-06T20:24:52+00:00"
         },
         {
-            "name": "boson-php/weak-types",
+            "name": "boson-php/uri",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/boson-php/weak-types.git",
-                "reference": "6c36cef335267f70b648c30a81abd6266e326718"
+                "url": "https://github.com/boson-php/uri.git",
+                "reference": "91191862767ee443ca5563c1891e199ca367080e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boson-php/weak-types/zipball/6c36cef335267f70b648c30a81abd6266e326718",
-                "reference": "6c36cef335267f70b648c30a81abd6266e326718",
+                "url": "https://api.github.com/repos/boson-php/uri/zipball/91191862767ee443ca5563c1891e199ca367080e",
+                "reference": "91191862767ee443ca5563c1891e199ca367080e",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/uri-contracts": "^0.16",
+                "php": "^8.4"
+            },
+            "provide": {
+                "boson-php/uri-contracts-implementation": "^0.16"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Component\\Uri\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides modern object-oriented API to interact with URI",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/uri"
+            },
+            "time": "2025-08-06T20:19:58+00:00"
+        },
+        {
+            "name": "boson-php/uri-contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/uri-contracts.git",
+                "reference": "655bf5c21880fd2ce2d5690c55ca86aa81be8c5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/uri-contracts/zipball/655bf5c21880fd2ce2d5690c55ca86aa81be8c5b",
+                "reference": "655bf5c21880fd2ce2d5690c55ca86aa81be8c5b",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/value-object-contracts": "^0.16",
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Contracts\\Uri\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides basic URI interfaces",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/uri-contracts"
+            },
+            "time": "2025-08-06T20:25:50+00:00"
+        },
+        {
+            "name": "boson-php/uri-factory",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/uri-factory.git",
+                "reference": "30742e11c1567aedebf8247c5bd1ca2586a320b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/uri-factory/zipball/30742e11c1567aedebf8247c5bd1ca2586a320b2",
+                "reference": "30742e11c1567aedebf8247c5bd1ca2586a320b2",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/uri": "^0.16",
+                "boson-php/uri-factory-contracts": "^0.16",
+                "php": "^8.4"
+            },
+            "provide": {
+                "boson-php/uri-factory-contracts-implementation": "^0.16"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Component\\Uri\\Factory\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides URI factory implementations",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/uri-factory"
+            },
+            "time": "2025-08-06T20:25:09+00:00"
+        },
+        {
+            "name": "boson-php/uri-factory-contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/uri-factory-contracts.git",
+                "reference": "01226b65750d929d7c8cfe766099b39fb4eaa079"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/uri-factory-contracts/zipball/01226b65750d929d7c8cfe766099b39fb4eaa079",
+                "reference": "01226b65750d929d7c8cfe766099b39fb4eaa079",
+                "shasum": ""
+            },
+            "require": {
+                "boson-php/uri-contracts": "^0.16",
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Contracts\\Uri\\Factory\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides basic URI factory interfaces",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/uri-factory-contracts"
+            },
+            "time": "2025-08-06T20:21:00+00:00"
+        },
+        {
+            "name": "boson-php/value-object-contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/value-object-contracts.git",
+                "reference": "1924064a7a62eed00cef45cef3b471485282885d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/value-object-contracts/zipball/1924064a7a62eed00cef45cef3b471485282885d",
+                "reference": "1924064a7a62eed00cef45cef3b471485282885d",
                 "shasum": ""
             },
             "require": {
@@ -678,8 +954,59 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.15.x-dev",
-                    "dev-master": "0.15.x-dev"
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boson\\Contracts\\ValueObject\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Nesmeyanov",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "Provides basic value object interfaces",
+            "homepage": "https://bosonphp.com",
+            "support": {
+                "issues": "https://github.com/boson-php/boson/issues",
+                "source": "https://github.com/boson-php/value-object-contracts"
+            },
+            "time": "2025-08-06T20:25:04+00:00"
+        },
+        {
+            "name": "boson-php/weak-types",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boson-php/weak-types.git",
+                "reference": "4dbab4e20c3854d380f4dacb5f557dd549444d3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boson-php/weak-types/zipball/4dbab4e20c3854d380f4dacb5f557dd549444d3f",
+                "reference": "4dbab4e20c3854d380f4dacb5f557dd549444d3f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.16.x-dev",
+                    "dev-master": "0.16.x-dev"
                 }
             },
             "autoload": {
@@ -703,7 +1030,7 @@
                 "issues": "https://github.com/boson-php/boson/issues",
                 "source": "https://github.com/boson-php/weak-types"
             },
-            "time": "2025-06-20T16:10:43+00:00"
+            "time": "2025-08-06T20:24:35+00:00"
         },
         {
             "name": "ffi/env",
@@ -1371,6 +1698,79 @@
                 }
             ],
             "time": "2024-11-19T18:32:50+00:00"
+        },
+        {
+            "name": "revolt/event-loop",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/revoltphp/event-loop.git",
+                "reference": "bd97bc9d9eeee5eba5055637df70a654b1294bde"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/revoltphp/event-loop/zipball/bd97bc9d9eeee5eba5055637df70a654b1294bde",
+                "reference": "bd97bc9d9eeee5eba5055637df70a654b1294bde",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "jetbrains/phpstorm-stubs": "^2019.3",
+                "phpunit/phpunit": "^9",
+                "psalm/phar": "^5.15"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Revolt\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Piotrowski",
+                    "email": "aaron@trowski.com"
+                },
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com"
+                },
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@clue.engineering"
+                },
+                {
+                    "name": "Niklas Keller",
+                    "email": "me@kelunik.com"
+                }
+            ],
+            "description": "Rock-solid event loop for concurrent PHP applications.",
+            "keywords": [
+                "async",
+                "asynchronous",
+                "concurrency",
+                "event",
+                "event-loop",
+                "non-blocking",
+                "scheduler"
+            ],
+            "support": {
+                "issues": "https://github.com/revoltphp/event-loop/issues",
+                "source": "https://github.com/revoltphp/event-loop/tree/main"
+            },
+            "time": "2025-03-13T00:55:42+00:00"
         }
     ],
     "packages-dev": [],
